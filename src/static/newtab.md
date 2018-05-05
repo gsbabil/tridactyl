@@ -12,7 +12,7 @@ Tridactyl has to override your new tab page due to WebExtension limitations. You
 
 - If you're enjoying Tridactyl (or not), please leave a review on [addons.mozilla.org][amo].
 
-- **Breaking change to default settings:** ignore mode is now bound to `<S-Insert>` for both entering and leaving the mode. Previous binds are unbound.
+- **Breaking change to `composite`:** composite now tries to pass the return value from each preceding function to its ancestor. This might break some of your binds to composite, or cause them to act in unexpected ways.
 
 - **NB:** Tridactyl now supports a native messenger on Linux and OSX. Just run `:installnative` to get going, and then Ctrl-i `<C-i>` in a text box to open your editor.
 
