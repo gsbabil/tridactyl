@@ -17,3 +17,5 @@ compiler/**/*.js
 .DS_Store
 .build_cache/
 yarn-error.log
+.yarn
+.yarnrc
